@@ -1,0 +1,161 @@
+ body{
+    
+        /* background-color: rgb(80, 255, 235); */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-image:url("./images/3d-landscape-with-tree-sea_1048-15682.avif"); 
+
+
+     } 
+#bird{
+    position:absolute;
+    height:40%;
+    width:20%;
+    top:-15%;
+    left:-20%;
+}
+      .image-container{
+        position:absolute;
+        top:12%;
+        left:15%
+    } 
+    @keyframes moveDown {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0%);
+        }
+        
+      } 
+
+       @keyframes moveRight {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0%);
+        }
+        
+      } 
+
+      @keyframes shake {
+        0% { transform: translate(0, 0) rotate(0deg); }
+        10% { transform: translate(-10px, 0) rotate(-5deg); }
+        20% { transform: translate(10px, 0) rotate(5deg); }
+        30% { transform: translate(-10px, 0) rotate(-5deg); }
+        40% { transform: translate(10px, 0) rotate(5deg); }
+        50% { transform: translate(-10px, 0) rotate(-5deg); }
+        60% { transform: translate(10px, 0) rotate(5deg); }
+        70% { transform: translate(-10px, 0) rotate(-5deg); }
+        80% { transform: translate(10px, 0) rotate(5deg); }
+        90% { transform: translate(-10px, 0) rotate(-5deg); }
+        100% { transform: translate(0, 0) rotate(0deg); }
+      }
+     #btn {
+        position: absolute;
+        top: 65%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        padding: 12px 24px;
+        background-color: #ae257a;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family:cursive;
+        border:5px solid black ;
+      } 
+      #greet{
+        position:absolute;
+        top: 15%;
+        left: 20%;
+        font-family:sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+    color:deeppink;
+    animation: moveRight 5s ease-out infinite;
+    
+    
+    
+      } 
+     #welcome{
+        position:absolute;
+        top: 35%;
+        left: 30%;
+        font-family:sans-serif;
+        font-style:oblique;
+        font-size: 40px;
+    color:#51a3de;
+    animation: moveDown 5s ease-out infinite;
+    }
+    #img2 {
+                animation:move 9s ease-out infinite;
+        animation-iteration-count: 1;
+        transition: width 4s, height 4s, transform 3s;
+transform: rotate(360deg);
+    }; 
+    #ameen {
+        animation:move 12s ease-out infinite;
+        animation-iteration-count: 1;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        padding: 12px 24px;
+        background-color: #b13481;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family:cursive;
+        border:5px solid rgb(244, 137, 37);
+        
+
+}; 
+ #img3 {
+    animation:move 9s ease-out infinite;
+animation-iteration-count: 1;
+transition: width 5s, height 4s, transform 3s;
+transform: rotate(60deg);
+}
+#hero{
+    
+    position:absolute;
+    top: 45%;
+    left: 30%;
+    font-family:sans-serif;
+    font-style:oblique;
+    font-size: 60px;
+color:#51a3de;
+animation: moveDown 5s ease-out infinite; 
+
+  
+  
+  
+  
+  
+}
+#anime:hover {
+    color: red;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* border-top: 1px solid #fff; */
+    /* box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.5); */
+ }
+ 
+ 
+
+
+
+     
